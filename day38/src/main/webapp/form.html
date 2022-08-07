@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="result.jsp" method="post">
+   <table border="1">
+      <tr>
+         <td>이름</td>
+         <td><input type="text" name="mname"></td>
+      </tr>
+      <tr>
+         <td>점수</td>
+         <td><input type="text" name="score" min="0" max="100"></td>
+      </tr>
+       <tr>
+         <td>성별</td>
+         <td><select name="gender">
+         	<option>남</option>
+         	<option>여</option>
+         </select>
+            
+           
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" align="right">
+            <input type="submit" value="등록하기">
+         </td>
+      </tr>
+</table>
+</form>
+</body>
+</html>
